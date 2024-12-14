@@ -6,23 +6,23 @@
 print("-----Calculating Exponents----")
 print()
 
-b = int(input("Enter an integer as the base value: "))
-e = int(input("Enter an integer as the exponent: "))
+base = int(input("Enter an integer as the base value: "))
+exponent = int(input("Enter an integer as the exponent: "))
 
-z = pow(b, e)
+power = pow(base, exponent)
 print()
-print(b, "raised to the power of", e, "is", z, "!!")
+print(base, "raised to the power of", exponent, "is", power, "!!")
 
 
 print("-----Addition and Subtraction----")
 print()
 
-i = int(input("Enter a starting integer: "))
-a = int(input("Enter an integer to add: "))
-s = int(input("Enter an integer to subtract: "))
+integer = int(input("Enter a starting integer: "))
+add = int(input("Enter an integer to add: "))
+sub = int(input("Enter an integer to subtract: "))
 
-q = i + a - s
+ans = integer + add - sub
 print()
-print(i, "+ ", a, "-", s, "is equal to", q)
+print(i, "+ ", add, "-", sub, "is equal to", ans)
 
 
